@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: green;
+    color: white;
+    background-image: url(https://kellinorr.files.wordpress.com/2017/12/dungeons-dragons-dice-roller-62751.jpg);
+    background-size: cover;
+}
+
+.container {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    background-color: rgba(255, 0, 0, 0.0);
+}
+
+.top {
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mid {
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 170px;
+}
+
+.bot {
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.btn {
+    border: 0;
+    background-color: red;
+    border-radius: 100px 100px;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsb1gLwHdR3FmaAIHaBjH4z4m3Ace2575YfPb9r93vl-34KQbw5w); */
+}
+
+#history {
+    color: white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsb1gLwHdR3FmaAIHaBjH4z4m3Ace2575YfPb9r93vl-34KQbw5w);
+    background-size: cover;
+}
+
+#rules {
+  background-image: url(http://images.uesp.net//f/f5/MW-book-Egg_Of_Time_p1.jpg);
+  background-size: cover;
+
+}
+
+#masters {
+    background-image: url(https://lh5.googleusercontent.com/-4VFW3JTqrec/AAAAAAAAAAI/AAAAAAAABjg/h16Lb9ltK_Q/il/photo.jpg);
+    background-size: contain;
+}
+
+#form {
+    color: black;
+    height: 100px;
+    width: 250px;
+    border-radius: 100px;
+    background-image: url(https://i0.wp.com/critgames.com/wp-content/uploads/2016/02/5th-Ed-Encounter-Sheet-v5.png?resize=250%2C250);
+}
+
+#history:hover {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_QvT7uWTXQ16QTehTiuVpDip1jLJjR7BXpBkXI5zZFpZxceuXRQ);
+  background-size: cover;
+  transition: 1s ease-in-out
+}
+
+#rules:hover {
+    background-image: url(http://stronghold2.heavengames.com/cpix/jpg/gibbet.jpg);
+    background-size: cover;
+    transition: 1s ease-in-out
+}
+
+#masters:hover {
+    background-image: url(https://2.gravatar.com/avatar/b4bb1691fd0e45756247cec42f4bf2f1?s=128&d=identicon&r=PG);
+    background-size: contain;
+    transition: 1s ease-in-out
+}
+
+#form:hover {
+    height: 250px;
+    width: 250px;
+    background-image: url(https://i0.wp.com/critgames.com/wp-content/uploads/2016/02/5th-Ed-Encounter-Sheet-v5.png?resize=250%2C250);
+    background-size: cover;
+    transition: 1s ease-in-out;
+    border-radius: 10px;
+}
